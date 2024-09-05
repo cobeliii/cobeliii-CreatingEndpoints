@@ -18,6 +18,12 @@ public class JavalinSingleton {
         Javalin app = Javalin.create();
         
         //write endpoint here
+        app.get("hello", ctx -> {
+            // Logic to be executed when this endpoint is hit
+            String message = "Hello World";
+            ctx.result(message); 
+        });
+
 
         return app;
     }

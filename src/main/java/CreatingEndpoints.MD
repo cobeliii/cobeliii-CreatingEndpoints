@@ -58,6 +58,7 @@ public static void main(String[] args){
     // HTTP GET REQUEST to http://localhost:9000/get-request
     app.get("/get-request", ctx -> {
         //logic to be executed when this endpoint is hit
+        
     });
 
 
